@@ -303,10 +303,3 @@ body {
     font-weight: lighter;
   }
 }
-.img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px; /* Khoảng cách giữa 2 ảnh */
-  margin-bottom: 20px;
-}
