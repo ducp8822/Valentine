@@ -218,9 +218,12 @@ body {
 }
 
 .wish h5 {
-  font-weight: lighter;
-  font-size: 2rem;
-  margin: 10px 0 0;
+  font-weight: 300; /* Làm nét chữ thanh mảnh hơn */
+  font-size: 1.1rem; /* Giảm từ 2rem xuống 1.1rem để chữ bé và tinh tế */
+  margin: 15px 0 0;
+  line-height: 1.6; /* Giúp các dòng chữ có khoảng cách thoáng, dễ đọc */
+  color: #555; /* Màu chữ hơi xám nhẹ để trông sâu lắng hơn */
+  padding: 0 20px; /* Tránh chữ bị sát mép màn hình trên điện thoại */
 }
 
 .nine p {
