@@ -225,6 +225,10 @@ body {
   line-height: 1.6; /* Giúp các dòng chữ có khoảng cách thoáng, dễ đọc */
   color: #555; /* Màu chữ hơi xám nhẹ để trông sâu lắng hơn */
   padding: 0 20px; /* Tránh chữ bị sát mép màn hình trên điện thoại */
+  max-height: 40vh;
+  overflow-y: auto;  /* Hiện thanh cuộn dọc nếu chữ quá dài */
+  margin-top: 10px;
+  text-align: justify; /* Căn đều cho đẹp */
 }
 
 .nine p {
