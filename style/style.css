@@ -14,8 +14,7 @@ body {
   text-align: center;
   visibility: hidden;
   position: relative;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .container div.six {
@@ -295,40 +294,15 @@ body {
   }
 
   .wish-hbd {
-    font-size: 2.3em;
+    font-size: 1.8em;
   }
 
   .wish h5 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
-  }
-}
-@media screen and (max-width: 500px) {
-  .container {
-    width: 100%; /* Lấy toàn bộ chiều rộng để chữ không bị bó hẹp */
-  }
-
-  .six .hat {
-    width: 40px;
-    top: -15px;
-    left: 35%;
-  }
-
-  .wish-hbd {
-    font-size: 1.8em; /* Giảm cỡ tiêu đề một chút */
-  }
-
-  .wish h5 {
-    font-size: 1rem;    /* Chữ lời chúc vừa phải để đọc dễ hơn */
-    line-height: 1.5;
-    max-height: 40vh;   /* Cho phép chiếm tối đa 40% chiều cao màn hình điện thoại */
-  }
-
-  .four .text-box {
-    width: 85%; /* Hộp chatbox gọn lại */
   }
 }
